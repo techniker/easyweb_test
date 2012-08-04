@@ -1,1 +1,13 @@
 https://www.olimex.com/dev/msp-easyweb2.html
+
+
+build inside /src with:
+
+make
+
+upload using MSP-FET430UIF:
+
+mspdebug -j -d /dev/ttyUSB0 uif
+
+prog easyWEB.elf
+run
